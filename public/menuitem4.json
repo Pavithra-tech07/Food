@@ -1,0 +1,21 @@
+[{
+    "id": 10,
+    "title": "Tom Kha",
+    "description":"the most famous soup of Thailand, but its milder creamier sister, tom kha gai, is my personal favourite.", 
+    "price":50,
+    "img": "images/tom kha-t.webp"
+  },
+  {
+    "id": 11,
+    "title": "Panang Curry",
+    "description": "Panang Curry recipe could be my ultimate favorite kind of curry! It’s bursting with rich and creamy flavor from the curry paste and coconut milk and is made hearty with chicken, veggies and fresh basil.",
+    "price":80,
+    "img": "images/panang curry -t.webp"
+  },
+  {
+    "id": 12,
+    "title": "Papaya Salad",
+    "description": "This delicious vegan recipe for Thai Green Papaya Salad is everything you could possibly want from a salad: crunchy, sweet, sour, spicy and salty.",
+    "price":50,
+    "img": "images/papaya salad -t.jpg"
+  }]

@@ -1,0 +1,22 @@
+
+[{
+    "id": 4,
+    "title": "Paneer Tikka",
+    "description": "Juicy chunks of paneer marinated in a punchy hot and sour tandoori masala are skewered up with onion petals and pieces of pepper.The loaded skewers are then grilled on a wire rack directly over the cooker to infuse deep, smoky flavours into the paneer and veg.",
+    "price":20,
+    "img": "images/pan.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Garlic rice",
+    "description": "One specific thing about this Garlic Rice is that it’s flavoured enough to eat without smothering with sauce, like saucy stir fries and plain white rice..",
+    "price":120,
+    "img": "images/garl.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Vada Pav",
+    "description": "The dish consists of a deep-fried potato dumpling placed inside a bread bun (pav) sliced almost in half through the middle. It is generally accompanied with one or more chutneys and a green chili pepper",
+    "price":20,
+    "img": "images/vada pav-w.webp"
+  }]

@@ -1,0 +1,20 @@
+[{
+    "id": 7,
+    "title": "PanCakes",
+    "price":40,
+    "img": "images/chi1.webp"
+  },
+  {
+    "id": 8,
+    "title": "Chinees Noodles",
+    "description": "Idli is made from fermented black lentils and rice. It is usually served with chutney.",
+    "price":80,
+    "img": "images/chi2.webp"
+  },
+  {
+    "id": 9,
+    "title": "Peking Duck",
+    "description": "Chicken marinated in yogurt, turmeric, and a paste of red chillies.",
+    "price":30,
+    "img": "images/chi3.webp"
+  }]

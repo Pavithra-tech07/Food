@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr=["pavi","sindhu"]
+// map
+
+        // arr.map((item)=>{
+        //     console.log(item);
+            
+        // })
+
+        const obj=[
+            {
+            name:"pavi",
+            age:23
+        },
+        {
+            name:"kavi",
+            age:25
+        },
+        {
+            name:"vini",
+            age:27
+        }
+    ]
+
+    obj.map((item, a)=>{
+        console.log(item.name, a);
+        
+    })
+    // filter
+
+    const fillt=obj.filter((item)=>{
+        return item.name !== "pavi";
+    })
+
+   console.log(fillt);
+   
+//    reduce
+
+const arr1=[1,23,34,33,23]
+
+
+const newarr=arr1.reduce((prevalue,currentvalue)=>{
+    console.log(prevalue,currentvalue)
+    return prevalue + currentvalue
+    
+},1)
+console.log(newarr);
+
+
+// constructor
+
+class myclass{
+
+    constructor(name ="tata" ,model ="is"){
+        this.name=name;
+        this.model=model;
+    }
+}
+const my=new myclass();
+console.log(my);
+
+// modern way
+
+class mycl{
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+
+    greet(){
+        console.log(`hello ${this.name} and my age is ${this.age}`);
+        
+    }
+}
+
+
+const pavi=new mycl('pavithra',22)
+pavi.greet();
+
+
+
+    </script>
+</body>
+</html>

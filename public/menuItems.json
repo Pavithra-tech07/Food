@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Dosa",
+    "description":"Like many South Indian cooks,soaking lentils and rice, then grinding and fermenting the batter to achieve the sour notes essential to a good dosa.",
+    "price":20,
+    "img": "images/dosa-s.png"
+  },
+  {
+    "id": 2,
+    "title": "Idly",
+    "description": "Idli is made from fermented black lentils and rice. It is usually served with chutney.",
+    "price":30,
+    "img": "images/idly.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Chettinad Chicken Curry",
+    "description": "Chicken marinated in yogurt, turmeric, and a paste of red chillies.",
+    "price":70,
+    "img": "images/chettinad.webp"
+  }
+]

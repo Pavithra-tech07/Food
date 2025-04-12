@@ -1,0 +1,9 @@
+.navbar{
+    box-shadow: 2px 2px 10px black;
+}
+.nav-link:hover{
+    color: red;
+}
+/* img:hover {
+    transform: scale(0.9); /* Zoom in 20% */
+   /* }  */ 

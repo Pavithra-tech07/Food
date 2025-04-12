@@ -1,0 +1,20 @@
+[{
+    "id": 13,
+    "title": "Dosa",
+    "price":80,
+    "img": "./chi1.webp"
+  },
+  {
+    "id": 14,
+    "title": "Idly",
+    "description": "Idli is made from fermented black lentils and rice. It is usually served with chutney.",
+    "price":60,
+    "img": "./chi2.webp"
+  },
+  {
+    "id": 15,
+    "title": "Chettinad Chicken Curry",
+    "description": "Chicken marinated in yogurt, turmeric, and a paste of red chillies.",
+    "price":30,
+    "img": "./chi3.webp"
+  }]
