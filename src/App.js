@@ -8,14 +8,14 @@ import './App.css';
 // import Menu from './MYPROJECT/Menu';
 
 
-// import {Routes, Route } from "react-router-dom";
-// import Home from "./MYPROJECT/Home";
-// import About from "./MYPROJECT/About";
-// import Menu from "./MYPROJECT/Menu";
-// import Contact from "./MYPROJECT/Contact";
+import {Routes, Route, Navigate } from "react-router-dom";
+import Home from "./MYPROJECT/Home";
+import About from "./MYPROJECT/About";
+import Menu from "./MYPROJECT/Menu";
+import Contact from "./MYPROJECT/Contact";
 
 
-import For2 from "./Form2.jsx/For2"
+// import For2 from "./Form2.jsx/For2"
 
 // import Eaxm from "./MYPRO/Eaxm";
 // import Cart from "./MYPROJECT/Cart"
@@ -35,7 +35,7 @@ function App() {
 {/* <Menu1/> */}
     {/* <ChatMenu/>  */}
 
-    <For2 />
+    {/* <For2 /> */}
 
     
 
@@ -48,7 +48,7 @@ function App() {
 
 
 
-        {/* <RouterComponent /> */}
+        <RouterComponent />
 
         
 
@@ -56,18 +56,18 @@ function App() {
   );
 }
 
-// // function RouterComponent() {
-// //   return (
-// //     <Routes>
-// //       <Route path="/home" element={<Home />} />
-// //       <Route path="/about" element={<About />} />
-// //       <Route path="/menu" element={<Menu />} />
-// //       <Route path="/contact" element={<Contact />} />
+function RouterComponent() {
+  return (
+    <Routes>
+      <Route path="/" element={<Navigate to={'/home'} />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/menu" element={<Menu />} />
+       <Route path="/contact" element={<Contact />} />
 
-// //       {/* <Route path="/cart" element={<Cart />} /> */}
-// //     </Routes>
-//   );
-// }
+      {/* <Route path="/cart" element={<Cart />} /> */}
+     </Routes>
+  );
+}
 
 export default App;
-
